@@ -12,9 +12,9 @@
 		<div id="form"> <!~~formulario de gasto~~>
 			<h1>Nova Despesa</h1>
 			<div class="inputs">
-			<form action="" method="post">
+			<form action="../gastos.php" method="post">
 				<label>Titulo</label>
-				<input type="text" name="local" placeholder="Nome do estabelecimento" required />
+				<input type="text" name="lugar" placeholder="Nome do estabelecimento" required />
 				<label>Descrição</label>
 				<input type="textarea" name="descricao" placeholder="Descreva o que comprou"/>
 				<label>Tipo de Gasto</label>
