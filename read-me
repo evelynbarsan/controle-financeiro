@@ -1,0 +1,32 @@
+Controle de financeiro de gastos pessoais
+
+	O objetivo deste projeto é proporcionar o controle dos gastos pessoais, mostrando os gastos 
+mensais, vencimento e parcelas, como também o valor total de todos os meses em aberto, para que 
+desta forma o usuário possa se programar melhor com os futuros gastos.
+
+Como irá funcionar:
+Primeira etapa:
+	O usuário irá inserir os dados da compra como: Titulo (instituição), descrição, tipo de gastos,
+forma de pagamento, quantidade de parcelas, valor de cada parcela e data de vencimento. Esses dados
+serão inseridos em um banco de dados e gerado um relatório de gastos mensais e totais, podendo ser 
+filtrado pelos itens de instituição, tipo de gasto, forma de pagamento, termino e data vencimento.
+
+Atualização:
+	O sistema será capaz de avisar que tem uma parcela à vencer, e opções de pago, não pago e
+adintamento de parcelas.  
+	
+
+O que fazer: 
+1ª etapa:
+	1ª parte - Estrutura de cadastro:
+	[x] Gerar um formulario de entrada de dados
+		(x) Titulo // onde comprou;
+		(x) Descrição // o que comprou;
+		(x) Tipo de gastos // se é roupa, alimentação, transporte, etc;
+		(x) Formas de pagamento // cartão, dinheiro, boleto; 
+		(x) Parcelas;
+		(x) Valor das parcelas;
+	[ ] Criar um banco de dados para o recebimento desses dados inseridos;
+	[ ] Fazer a conexão do banco de dados com o sistema.
+
+	2ª parte - Filtrar as informaçôes;
