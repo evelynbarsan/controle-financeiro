@@ -26,7 +26,7 @@ O que fazer:
 		(x) Formas de pagamento // cartão, dinheiro, boleto; 
 		(x) Parcelas;
 		(x) Valor das parcelas;
-	[ ] Criar um banco de dados para o recebimento desses dados inseridos;
+	[x] Criar um banco de dados para o recebimento desses dados inseridos;
 	[ ] Fazer a conexão do banco de dados com o sistema.
 
 	2ª parte - Filtrar as informaçôes;
