@@ -3,13 +3,22 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Nova Despesa | Controle de Gastos</title>
+		<title>Nova Despesa | Meu controle</title>
 	</head>
 	<body>
+		<header>
+			<div class="nav">
+			<nav>
+				<ul>
+					<li><a href="index.php">Inicio</a></li>
+					<li><a href="consulta.php">Consulta</a></li>
+			</nav>
+			</div>
+		</header>
 		<div id="form"> <!~~formulario de gasto~~>
 			<h1>Nova Despesa</h1>
 			<div class="inputs">
-			<form  action="../connex.php" method="post">
+			<form  action="consulta.php" method="post">
 				Titulo
 				<input type="text" name="lugar" placeholder="Nome do estabelecimento" required />
 				Descrição
@@ -36,7 +45,7 @@
 				<input type="number" name="parcelas" placeholder="" required/>
 				Valor das parcelas
 				<input type="number" name="valor" required/>
-				<div class="botão"><button type="submit">Salvar</button></div>
+				<div class="botão"><button type="submit" onclick="gastos_s.php">Salvar</button></div>
 			</form>
 			</div>
 		</div>
