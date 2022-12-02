@@ -18,5 +18,6 @@ e a linguagem PHP.
 
 ## Considerações finais
 Este projeto está em fase inicial, onde a primeira etapa foi concluida, restando um bug <br>
-de indefinição do index, que será corrigida.
-
+de indefinição do index, que será corrigida.<br>
+Breve será implementado o css para ficar com uma aparência mais amigável, porém o foco<br>
+inicial é focar no php e sql.
