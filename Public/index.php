@@ -1,8 +1,7 @@
 <?php
 
 ?>
-<!doctype html>
-	<!DOCTYPE html>
+<!DOCTYPE html>
 	<html>
 	<head>
 		<meta charset="utf-8">
@@ -14,8 +13,9 @@
 			<div class="nav">
 			<nav>
 				<ul>
-					<li><a href="novo_gasto.php">Novo</a></li>
-					<li><a href="consulta.php">Consultar</a></li>
+					<li><a href="../assets/php/novo_gasto.php">Novo</a></li>
+					<li><a href="../assets/php/consulta.php">Consultar</a></li>
+				</ul>
 			</nav>
 			</div>
 		</header>

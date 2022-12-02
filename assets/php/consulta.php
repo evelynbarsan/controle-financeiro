@@ -28,8 +28,9 @@
 			<div class="nav">
 			<nav>
 				<ul>
-					<li><a href="index.php">Inicio</a></li>
+					<li><a href="../../public/index.php">Inicio</a></li>
 					<li><a href="novo_gasto.php">Novo</a></li>
+				</ul>
 			</nav>
 			</div>
 		</header>
@@ -43,7 +44,7 @@
 			echo "Titulo:" . $row_gastos['lugar'] . "<br>";
 			echo "Descrição da compra:" . $row_gastos['descricao'] . "<br>";
 			echo "classificação:" . $row_gastos ['tipo'] . "<br>" ;
-			echo "Metodo de pagamento" . $row_gastos['pagamento'] . "<br>" ;
+			echo "Metodo de pagamento:" . $row_gastos['pagamento'] . "<br>" ;
 			echo "Parcelas que faltam:" . $row_gastos['parcelas'] . "<br>" ;
 			echo "Valor da parcela:" . $row_gastos['valor'] . "<br>" ;
 			echo "Valor total:" . ($soma = $row_gastos['parcelas']* $row_gastos['valor']) . "<br><br>";

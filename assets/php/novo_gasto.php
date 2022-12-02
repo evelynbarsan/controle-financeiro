@@ -10,8 +10,9 @@
 			<div class="nav">
 			<nav>
 				<ul>
-					<li><a href="index.php">Inicio</a></li>
+					<li><a href="../../public/index.php">Inicio</a></li>
 					<li><a href="consulta.php">Consulta</a></li>
+				</ul>
 			</nav>
 			</div>
 		</header>
@@ -22,7 +23,7 @@
 				Titulo
 				<input type="text" name="lugar" placeholder="Nome do estabelecimento" required />
 				Descrição
-				<textarea name="descricao" placeholder="Descreva o que comprou"></textarea>
+				<input type="text" name="descricao" placeholder="Descreva o que comprou"/>
 				Tipo de Gasto
 				<select type="" name="tipo">
 					<option></option>
@@ -34,7 +35,7 @@
 					<option>Investimentos - Tudo o que foi adquirido para gerar algum tipo de renda</option>
 					<option>Obra e reforma - Itens de construção e reforma</option>
 					<option>Presentes - Com pras feitas para presentear</option>
-					<option>Vestuáriob - Roupa, Sapato, bolsa e afins</option>
+					<option>Vestuário - Roupa, Sapato, bolsa e afins</option>
 					<option>Viagem - O que foi adquirido para viajar e afins</option>
 					<option>Transporte - Passagens, combustivel, aplicativos e afins</option>
 					<option>Outros</option>
